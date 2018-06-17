@@ -1,16 +1,16 @@
 # Knex JS Prototype
 
-###Purpose:
+### Purpose:
 We need a tool to help keep the state of the database synchronized with the current version of the codebase. In Knex you use seed files and migrations for this. We need a prototype demonstrating a few simple migrations and a seed script in order to compare with similar solutions implemented in Mongo DB. Additionally we need some written research to compare whether MySql or Mongo DB is a better fit for the project, so it is advisable that whomever is building this prototype receives feedback from the students doing the Mongo DB prototype.
 
-###Questions:
+### Questions:
 * What does Knex JS do?
 * Why do we need it?
 * How do you set up Knex JS?
 * How does Knex JS compare to an ORM?
 * What are cons and pros of using Knex JS compared to alternative options?
 
-###Exercise:
+### Exercise:
 * First, try to create a database table with the mysql console or Mysql Workbench and use the Knex JS api to generate some INSERT sql-queries to create some content.
 * Try to read some data from the table using the Knex API.
 * Delete all of the previous tables and set up a migration (up and down) to create a couple of tables with a relationship between them.
