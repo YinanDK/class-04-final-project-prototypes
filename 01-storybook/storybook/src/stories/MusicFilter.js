@@ -5,6 +5,15 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import { Select, Grid, Card, Image, List, Icon, Button} from 'semantic-ui-react';
 import imageFile1 from './assets/imagefile1.jpg';
+import imageFile2 from './assets/imagefile2.jpg';
+import imageFile3 from './assets/imagefile3.jpg';
+import imageFile4 from './assets/imagefile4.jpg';
+import imageFile5 from './assets/imagefile5.jpg';
+import imageFile6 from './assets/imagefile6.jpg';
+import imageFile7 from './assets/imagefile7.jpg';
+import imageFile8 from './assets/imagefile8.jpg';
+import imageFile9 from './assets/imagefile9.jpg';
+import imageFile10 from './assets/imagefile10.jpg';
 
 const options = [
         { key: 'any', value: 'Any',  text: '- Any -' },
@@ -26,7 +35,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 						<List.Content floated="right" style={{margin: "5px auto"}}>
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -66,7 +75,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 						<List.Content floated="right" style={{margin: "5px auto"}}>
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -96,7 +105,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 									as = 'i'
 							/>
 						</List.Content>
-						<Image avatar src={imageFile1} />
+						<Image avatar src={imageFile2} />
 						<List.Content>
 							<b>Singer name</b>
 							<List.Description style={{fontSize:"12px"}}> Album name </List.Description>
@@ -106,7 +115,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 						<List.Content floated="right" style={{margin: "5px auto"}}>
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -136,7 +145,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 									as = 'i'
 							/>
 						</List.Content>
-						<Image avatar src={imageFile1} />
+						<Image avatar src={imageFile3} />
 						<List.Content>
 							<b>Singer name</b>
 							<List.Description style={{fontSize:"12px"}}> Album name </List.Description>
@@ -146,7 +155,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 						<List.Content floated="right" style={{margin: "5px auto"}}>
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -176,7 +185,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 									as = 'i'
 							/>
 						</List.Content>
-						<Image avatar src={imageFile1} />
+						<Image avatar src={imageFile4} />
 						<List.Content>
 							<b>Singer name</b>
 							<List.Description style={{fontSize:"12px"}}> Album name </List.Description>
@@ -186,7 +195,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 						<List.Content floated="right" style={{margin: "5px auto"}}>
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -216,7 +225,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 									as = 'i'
 							/>
 						</List.Content>
-						<Image avatar src={imageFile1} />
+						<Image avatar src={imageFile5} />
 						<List.Content>
 							<b>Singer name</b>
 							<List.Description style={{fontSize:"12px"}}> Album name </List.Description>
@@ -230,7 +239,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 						<List.Content floated="right" style={{margin: "5px auto"}}>
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -260,7 +269,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 									as = 'i'
 							/>
 						</List.Content>
-						<Image avatar src={imageFile1} />
+						<Image avatar src={imageFile6} />
 						<List.Content>
 							<b>Singer name</b>
 							<List.Description style={{fontSize:"12px"}}> Album name </List.Description>
@@ -270,7 +279,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 						<List.Content floated="right" style={{margin: "5px auto"}}>
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -300,7 +309,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 									as = 'i'
 							/>
 						</List.Content>
-						<Image avatar src={imageFile1} />
+						<Image avatar src={imageFile7} />
 						<List.Content>
 							<b>Singer name</b>
 							<List.Description style={{fontSize:"12px"}}> Album name </List.Description>
@@ -310,7 +319,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 						<List.Content floated="right" style={{margin: "5px auto"}}>
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -319,7 +328,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -340,7 +349,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 									as = 'i'
 							/>
 						</List.Content>
-						<Image avatar src={imageFile1} />
+						<Image avatar src={imageFile8} />
 						<List.Content>
 							<b>Singer name</b>
 							<List.Description style={{fontSize:"12px"}}> Album name </List.Description>
@@ -350,7 +359,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 						<List.Content floated="right" style={{margin: "5px auto"}}>
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -380,7 +389,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 									as = 'i'
 							/>
 						</List.Content>
-						<Image avatar src={imageFile1} />
+						<Image avatar src={imageFile9} />
 						<List.Content>
 							<b>Singer name</b>
 							<List.Description style={{fontSize:"12px"}}> Album name </List.Description>
@@ -390,7 +399,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 						<List.Content floated="right" style={{margin: "5px auto"}}>
 							<Icon 
 									circular color='teal'
-									name="play circle"
+									name="file alternate outline"
 									style ={{padding:"5px"}}
 									size="small" 
 									//color="#636363"
@@ -420,7 +429,7 @@ const storyWelcome = storiesOf('MusicFilter', module)
 									as = 'i'
 							/>
 						</List.Content>
-						<Image avatar src={imageFile1} />
+						<Image avatar src={imageFile10} />
 						<List.Content>
 							<b>Singer name</b>
 							<List.Description style={{fontSize:"12px"}}> Album name </List.Description>
