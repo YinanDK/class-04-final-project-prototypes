@@ -1,9 +1,11 @@
 1. How to install storybook to your react app
-   cd to your react folder,
-   npm i -g @storybook/cli (use sudo if no permission),
-   cd to your react app, 
-   getstorybook (this will create a seperate folder in your react app inside /src, read the code and you can start your own story)
+    - cd to your react folder,
+    - npm i -g @storybook/cli (use sudo if no permission),
+    - cd to your react app, 
+    - getstorybook (this will create a seperate folder in your react app inside /src, read the code and you can start your own story
 
+2. How to run storybook
+use command line npm run storybook
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
