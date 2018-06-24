@@ -5,6 +5,7 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import 'semantic-ui-css/semantic.min.css';
 import {Button} from 'semantic-ui-react';
+import App from '../App';
 
 import { Welcome } from '@storybook/react/demo';
 
@@ -13,11 +14,14 @@ import { Welcome } from '@storybook/react/demo';
 const storyButton = storiesOf('Button', module)
   .add('with text', () => <Button color='teal' onClick={action('clicked')}>Hello Button</Button>)
   .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
-    </Button>
+    <div>
+      <App {...this.props}/>
+      <Button onClick={action('clicked')}>
+        <span role="img" aria-label="so cool">
+          😀 😎 👍 💯
+        </span>
+      </Button>
+    </div>
   ));
 
   export default storyButton;

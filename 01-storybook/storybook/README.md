@@ -1,6 +1,6 @@
 1. How to install storybook to your react app
     - cd to your react folder,
-    - npm i -g @storybook/cli (use sudo if no permission),
+    - npm i --save-dev @storybook/cli (use sudo if no permission, not necessary for -g),
     - cd to your react app, 
     - getstorybook (this will create a seperate folder in your react app inside /src, read the code and you can start your own story
 
